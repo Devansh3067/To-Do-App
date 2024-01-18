@@ -5,6 +5,11 @@ let list = document.querySelectorAll("li");
 let errorMsg = document.querySelector(".error-message");
 
 addBtn.addEventListener("click",addTask);
+document.addEventListener("keydown",(e)=>{
+    if(e.keyCode == 13){
+        addTask();
+    }
+});
 
 let checked = false;
 
@@ -12,7 +17,6 @@ function addTask(){
     let task = input.value;
     if(task == ""){
         errorMsg.style.display = "block";
-        // alert("You must write something");
     }
     else{
         errorMsg.style.display = "none";

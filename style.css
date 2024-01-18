@@ -13,7 +13,6 @@ body{
     padding: 35px 20px;
     margin: auto;
     width:450px;
-    /* height:1000px; */
     border-radius: 20px;
     background-color:aliceblue;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -45,7 +44,6 @@ body{
 }
 .add-btn{
     color:white;
-    /* top:0; */
     left: 82%;
     position: absolute;
     height : 34px;
@@ -86,7 +84,6 @@ li::before{
     background-image: url("images/checked.png");
 }
 li span{
-    /* top:30px; */
     position: absolute;
     font-weight: 300;
     color:black;
